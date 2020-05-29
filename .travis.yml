@@ -1,0 +1,22 @@
+dist: focal
+sudo: false
+latex: false
+language: r
+r: release
+warnings_are_errors: false
+cache:
+    packages: true
+git:
+    depth: false
+r_packages:
+  - shiny
+  - shinydashboard
+  - tidyverse
+  - viridis
+  - tmap
+  - sf
+  - leaflet
+  - leaflet.extras
+  
+script:
+    - R -f deploy.R
