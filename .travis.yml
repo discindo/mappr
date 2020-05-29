@@ -1,6 +1,5 @@
 os: linux
 dist: xenial
-sudo: false
 latex: false
 language: r
 r: release
