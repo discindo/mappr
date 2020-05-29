@@ -23,7 +23,7 @@ before_install:
  #   - r-cran-classint
  #   - r-cran-htmltools
  #   - r-cran-htmlwidgets
- libudunits2-0 #for r-cran-units
+ libudunits2-0 #for r-cran-units when builing from source
 git:
     depth: false
     
