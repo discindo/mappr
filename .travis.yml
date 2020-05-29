@@ -11,7 +11,7 @@ before_install:
  - sudo add-apt-repository universe
  - sudo apt update
 
-#apt_packages:
+apt_packages:
  #   - r-cran-tidyverse
  #   - r-cran-shiny
  #   - r-cran-shinydashboard
