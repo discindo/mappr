@@ -1,3 +1,4 @@
+os: linux
 dist: xenial
 sudo: false
 latex: false
@@ -8,8 +9,8 @@ cache:
     packages: true
 
 before_install:    
- - sudo add-apt-repository universe
- - sudo apt update
+ - add-apt-repository universe
+ - apt update
 
 apt_packages:
  #   - r-cran-tidyverse
