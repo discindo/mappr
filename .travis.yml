@@ -27,25 +27,25 @@ apt_packages:
 git:
     depth: false
     
-r_packages:
-  - tidyverse
-  - shiny
-  - shinydashboard
-  - viridis
-  - viridislite
-  - sf
-  - stars
-  - units
-  - classint
-  - htmltools
-  - htmlwidgets
-  - leaflet
-  - leaflet.extras
-  - tmaptools 
-  - leafsync
-  - leafem
-  - RColorBrewer
-  - tmap
+#r_packages:
+  #- tidyverse
+  #- shiny
+  #- shinydashboard
+  #- viridis
+  #- viridislite
+  #- sf
+  #- stars
+  #- units
+  #- classint
+  #- htmltools
+  #- htmlwidgets
+  #- leaflet
+  #- leaflet.extras
+  #- tmaptools 
+  #- leafsync
+  #- leafem
+  #- RColorBrewer
+  #- tmap
 
 script:
     - R -f deploy.R
