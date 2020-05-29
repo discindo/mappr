@@ -28,25 +28,25 @@ git:
     depth: false
     
 r_packages:
-   - rsconnect
-  #- tidyverse
-  #- shiny
-  #- shinydashboard
-  #- viridis
-  #- viridislite
-  #- sf
-  #- stars
-  #- units
-  #- classint
-  #- htmltools
-  #- htmlwidgets
-  #- leaflet
-  #- leaflet.extras
-  #- tmaptools 
-  #- leafsync
-  #- leafem
-  #- RColorBrewer
-  #- tmap
+  - rsconnect
+  - tidyverse
+  - shiny
+  - shinydashboard
+  - viridis
+  - viridislite
+  - sf
+  - stars
+  - units
+  - classint
+  - htmltools
+  - htmlwidgets
+  - leaflet
+  - leaflet.extras
+  - tmaptools 
+  - leafsync
+  - leafem
+  - RColorBrewer
+  - tmap
 
 script:
     - R -f deploy.R
