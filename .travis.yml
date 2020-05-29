@@ -24,7 +24,7 @@ apt_packages:
  #   - r-cran-classint
  #   - r-cran-htmltools
  #   - r-cran-htmlwidgets
- - libudunits2-0 #for r-cran-units when builing from source
+ - libudunits2-dev #for r-cran-units when builing from source
 git:
     depth: false
     
