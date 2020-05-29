@@ -1,4 +1,4 @@
-dist: focal
+dist: bionic
 sudo: false
 latex: false
 language: r
@@ -6,6 +6,11 @@ r: release
 warnings_are_errors: false
 cache:
     packages: true
+
+before_install:    
+ - sudo add-apt-repository universe
+ - sudo apt update
+
 apt_packages:
     - r-cran-tidyverse
     - r-cran-shiny
@@ -20,6 +25,7 @@ apt_packages:
     - r-cran-htmlwidgets
 git:
     depth: false
+    
 r_packages:
   - leaflet
   - leaflet.extras
@@ -28,5 +34,6 @@ r_packages:
   - leafem
   - RColorBrewer
   - tmap
+
 script:
     - R -f deploy.R
