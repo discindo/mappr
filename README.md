@@ -6,3 +6,5 @@ The app can be found online here: https://novica.shinyapps.io/nmkmappr/
 - The map data are from https://wambachers-osm.website/boundaries/ 
 
 - The demo data are from http://www.stat.gov.mk/
+
+- This app is deployed to shinyapps.io using Travis CI
