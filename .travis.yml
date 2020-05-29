@@ -27,7 +27,7 @@ apt_packages:
 git:
     depth: false
     
-#r_packages:
+r_packages:
    - rsconnect
   #- tidyverse
   #- shiny
