@@ -1,13 +1,5 @@
 # Load packages
-library(shiny)
-library(shinydashboard)
-library(tidyverse)
-library(viridis)
-library(tmap)
-library(sf)
-library(leaflet)
-library(leaflet.extras)
-
+source("./util.R")
 
 #### Load the data
 map_joined_with_data <- readRDS("data/default-map.Rds")
