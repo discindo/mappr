@@ -6,17 +6,27 @@ r: release
 warnings_are_errors: false
 cache:
     packages: true
+apt_packages:
+    - r-cran-tidyverse
+    - r-cran-shiny
+    - r-cran-shinydashboard
+    - r-cran-viridis
+    - r-cran-viridislite
+    - r-cran-sf
+    - r-cran-stars
+    - r-cran-units
+    - r-cran-classint
+    - r-cran-htmltools
+    - r-cran-htmlwidgets
 git:
     depth: false
 r_packages:
-  - shiny
-  - shinydashboard
-  - tidyverse
-  - viridis
-  - tmap
-  - sf
   - leaflet
   - leaflet.extras
-  
+  - tmaptools 
+  - leafsync
+  - leafem
+  - RColorBrewer
+  - tmap
 script:
     - R -f deploy.R
