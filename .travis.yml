@@ -28,6 +28,7 @@ git:
     depth: false
     
 #r_packages:
+   - rsconnect
   #- tidyverse
   #- shiny
   #- shinydashboard
