@@ -11,22 +11,33 @@ before_install:
  - sudo add-apt-repository universe
  - sudo apt update
 
-apt_packages:
-    - r-cran-tidyverse
-    - r-cran-shiny
-    - r-cran-shinydashboard
-    - r-cran-viridis
-    - r-cran-viridislite
-    - r-cran-sf
-    - r-cran-stars
-    - r-cran-units
-    - r-cran-classint
-    - r-cran-htmltools
-    - r-cran-htmlwidgets
+#apt_packages:
+ #   - r-cran-tidyverse
+ #   - r-cran-shiny
+ #   - r-cran-shinydashboard
+ #   - r-cran-viridis
+ #   - r-cran-viridislite
+ #   - r-cran-sf
+ #   - r-cran-stars
+ #   - r-cran-units
+ #   - r-cran-classint
+ #   - r-cran-htmltools
+ #   - r-cran-htmlwidgets
 git:
     depth: false
     
 r_packages:
+  - tidyverse
+  - shiny
+  - shinydashboard
+  - viridis
+  - viridislite
+  - sf
+  - stars
+  - units
+  - classint
+  - htmltools
+  - htmlwidgets
   - leaflet
   - leaflet.extras
   - tmaptools 
