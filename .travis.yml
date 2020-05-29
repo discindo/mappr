@@ -9,8 +9,8 @@ cache:
     packages: true
 
 before_install:    
- - add-apt-repository universe
- - apt update
+ - sudo add-apt-repository universe
+ - sudo apt update
 
 apt_packages:
  #   - r-cran-tidyverse
